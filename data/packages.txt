@@ -32,6 +32,7 @@ openssl-tool - The openssl command line cryptographic tool
 p7zip - Command-line version of the 7zip compressed file archiver
 perl - Capable, feature-rich programming language
 pwgen - Password generator which by default, unless given the '-s' option, generates memorable but insecure passwords
+python2 -  interactive object oriented language, includes an extensive class library with lots of goodies for network programming, system administration, sounds and graphics.
 rsync - Utility that provides fast incremental file transfer
 sed - GNU stream text editor
 stunnel - Socket wrapper which can provide TLS support to ordinary applications
