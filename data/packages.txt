@@ -21,6 +21,7 @@ inetutils - Collection of common network programs
 less - Terminal pager program used to view the contents of a text file one screen at a time
 lftp - FTP/HTTP client and file transfer program
 lynx - The text web browser
+make - An utility for Directing compilation
 man - Man page viewer from the mandoc toolset
 mc - Midnight Commander - a powerful file manager
 mutt - Mail client
