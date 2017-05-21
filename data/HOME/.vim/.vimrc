@@ -149,10 +149,25 @@ call plug#begin('~/.vim/plugged')
 
 " Make sure you use single quotes
 
+" Provides syntax highlight.
 Plug 'leafgarland/typescript-vim'
-Plugin 'Quramy/vim-js-pretty-template'
-Plug 'Shougo/vimproc.vim', {'do' : 'make'}
+
+" Provides syntax highlight for contents in Template Strings.
+Plug 'Quramy/vim-js-pretty-template'
+
+" Works as a client for TSServer (which is an editor service bundled into TypeScript)
 Plug 'Quramy/tsuquyomi'
+
+" Provides function of indent for both JavaScript and TypeScript.
+Plug 'jason0x43/vim-js-indent'
+
+" Provides .d.ts management for dtsm users.
+Plug 'Quramy/vim-dtsm'
+
+" Provides .d.ts management for typings users.
+Plug 'mhartington/vim-typings'
+
+Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'jiangmiao/auto-pairs'
 Plug 'bdauria/angular-cli.vim'
 
