@@ -152,6 +152,9 @@ call plug#begin('~/.vim/plugged')
 " Provides syntax highlight.
 Plug 'leafgarland/typescript-vim'
 
+" Syntax checking plugin
+Plug 'vim-syntastic/syntastic'
+
 " Provides syntax highlight for contents in Template Strings.
 Plug 'Quramy/vim-js-pretty-template'
 
@@ -183,14 +186,17 @@ Plug 'fatih/vim-go', { 'tag': '*' }
 " Initialize plugin system
 call plug#end()
 
+" Configuration for typescript-vim
 let g:typescript_compiler_binary = 'tsc'
 let g:typescript_compiler_options = ''
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
 
+" Configuration for vim-js-pretty
 autocmd FileType typescript JsPreTmpl html
 autocmd FileType typescript syn clear foldBraces
 
+" Configuration for Syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*

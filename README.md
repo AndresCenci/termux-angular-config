@@ -21,3 +21,17 @@ Esto es el contenido del script [start.sh](scripts/start.sh).
 
 Este comando bajará y ejecutará este script del repositorio [setup](scripts/setup.sh).
 
+Cuando todo finaliza solo nos resta crear un proyecto Angular, entonces ejecutamos:
+
+```bash
+ng new myApp
+```
+
+Y al finalizar la creación del proyecto, ejecutamos:
+
+```bash
+cd myApp
+ng serve 
+```
+
+Y listo, el proyecto ya se encuentra levantado. Lo podemos ver en funcionamiento abriendo el browser del dispositivo en localhost:4200
