@@ -35,3 +35,6 @@ ng serve
 ```
 
 Y listo, el proyecto ya se encuentra levantado. Lo podemos ver en funcionamiento abriendo el browser del dispositivo en localhost:4200
+
+Mas info sobre la instalación y los plugins utilizados con Vim en [Medium](https://medium.com/@andrescenci/angular-sobre-android-c023a6138d37).
+
